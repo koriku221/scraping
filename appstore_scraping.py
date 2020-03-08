@@ -22,7 +22,7 @@ if not rp.can_fetch(user_agent, url):
 response = cached_session.get(url, headers = headers)
 print(f'from_cache:{response.from_cache}')
 print(f'status_code:{response.status_code}')
-#print(response.text)
+print(response.text)
 
 #print(response.content)
 
